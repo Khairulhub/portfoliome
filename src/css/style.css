@@ -3,6 +3,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+/* p{
+    text-align: justify;
+} */
 .nav-link.active{
     color: rgba(0,0,0,.55) !important;
     border-bottom: 2px solid rgba(0,0,0,.55);
@@ -49,4 +52,43 @@ header ul li {
 }
 .my-skills{
     background: #f9f9ff;
+}
+
+.fa-solid{
+    color:#7450a8;
+}
+.hireMe{
+    background-image: linear-gradient(#5A20CB, #8D3DAF);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* owl carosel */
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: #7450a8 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    
+    /* transition: opacity .2s ease; */
+    border-radius: 30px;
 }
