@@ -25,7 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto text-center mb-2 mb-lg-0">
                     <li class="nav-item mx-3">
                         <a class="nav-link text-gray fw-bold active" aria-current="page" href="#">Home</a>
                     </li>
@@ -33,13 +33,13 @@
                         <a class="nav-link text-gray fw-bold" href="#about">About</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-gray fw-bold" href="#">Services</a>
+                        <a class="nav-link text-gray fw-bold" href="#services">Services</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-gray fw-bold" href="#">Works</a>
+                        <a class="nav-link text-gray fw-bold" href="#work">Works</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-gray fw-bold" href="#">Contact</a>
+                        <a class="nav-link text-gray fw-bold" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,20 +48,22 @@
     <header>
         <div class="row ">
             <div class="col-12 d-flex justify-content-center align-items-center ">
-                <div>
+                <div class="my-5">
                     <h1>I'm <span class="text-primary fs-1">Engr Khairul,</span></h1>
                     <h1>Web Designer...</h1>
 
                     <br>
                     <ul class="d-flex text-center align-items-center justify-content-center mx-4">
-                        <li class="text-primary"><a href="https://web.facebook.com/khairlhub/"><i class="fa-brands fa-facebook-square fa-2x"></i></a> </li>
+                        <li class="text-primary"><a href="https://web.facebook.com/khairlhub/"><i
+                                    class="fa-brands fa-facebook-square fa-2x"></i></a> </li>
                         <li class="text-primary"><i class="fa-brands fa-github-square fa-2x"></i></li>
                         <li class="text-primary"><i class="fa-brands fa-linkedin fa-2x"></i></li>
                         <li class="text-primary"><i class="fa-brands fa-twitter-square fa-2x"></i></li>
                     </ul>
                     <div class="text-center ">
                         <button type="button" class="btn text-white bg-primary mx-2">See My Work</button>
-                        <button type="button" class="btn btn-outline-primary mx-2">About Me</button>
+                        <button type="button" class="btn btn-outline-primary mx-2"><a href="#about"
+                                class="text-decoration-none text">About Me</a></button>
                     </div>
                 </div>
             </div>
@@ -78,7 +80,7 @@
                         <img src="./src/images/formal.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 col-md-6 mt-3">
-                        <div>
+                        <div >
                             <button onclick="aboutme()" type="button"
                                 class="btn shadow text-white bg-primary mx-md-2">About
                                 Me</button>
@@ -87,7 +89,7 @@
                             <button onclick="experience()" type="button"
                                 class="btn shadow text-white bg-primary mx-md-2">Experince</button>
                             <button onclick="education()" type="button"
-                                class="btn shadow text-white bg-primary mx-md-2">Education</button>
+                                class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0">Education</button>
                         </div>
                         <!-- aboutme part -->
                         <div class="mt-5 d-block" id="aboutme">
@@ -107,25 +109,26 @@
                         </div>
                         <!-- skills part -->
                         <div class="d-none" id="skills">
-                            <div class="row gap-2 m-0">
-                                <div class="col-md-3 mt-4 bg-primary py-3 px-3 rounded text-center">
+                            <div class="row  m-0">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
                                     <a class="text-light p-0 m-0"><i class="fa-brands fa-html5"></i> HTML</a>
                                 </div>
-                                <div class="col-md-3 mt-4 bg-primary py-3 px-3 rounded text-center ">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
                                     <a class="text-light"><i class="fa-brands fa-css3-alt"></i> CSS</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary py-3 px-3 rounded text-center">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>
                                 </div>
-                                <div class="col-md-3 mt-4 bg-primary py-3 px-3 rounded text-center ">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
                                     <a class="text-light"><i class="fa-brands fa-js"></i> jS</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary py-3 px-3 rounded text-center">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-git-alt"></i> Git/Github</a>
                                 </div>
-                                <div class="col-md-3 mt-4 bg-primary py-3 px-3 rounded text-center">
+                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-sass"></i> Sass</a>
                                 </div>
+                               
                             </div>
                         </div>
                         <!-- Experince -->
@@ -156,63 +159,160 @@
 
             </section>
         </section>
-        <section>
+        <section id="services">
             <section class="container mb-5">
                 <h1 class="text-center about">What I Do</h1>
             </section>
             <section class="container">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <div class="card" >
+                        <div class="card">
                             <i class="fa-solid fa-code fa-3x text-center pt-3"></i>
                             <div class="card-body">
-                              <h5 class="card-title text-center">Web Design</h5>
-                              <p class="card-text text-center">Modern web design is more involved than creating an attractive website. Consideration of user experience.</p>
-                              
+                                <h5 class="card-title text-center">Web Design</h5>
+                                <p class="card-text text-center">Modern web design is more involved than creating an
+                                    attractive website. Consideration of user experience.</p>
+
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="item">
-                        <div class="card" >
+                        <div class="card">
                             <i class="fa-solid fa-gauge-high fa-3x text-center pt-3"></i>
                             <div class="card-body">
-                              <h5 class="card-title text-center">Speed Optimization</h5> <br>
-                              <p class="card-text text-center">We offer speed optimization service plans that can help your website load at top speeds.</p>
-                             
+                                <h5 class="card-title text-center">Speed Optimization</h5> <br>
+                                <p class="card-text text-center">We offer speed optimization service plans that can help
+                                    your website load at top speeds.</p>
+
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="item">
                         <div class="card">
                             <i class="fa-solid fa-chart-line fa-3x text-center pt-3"></i>
                             <div class="card-body">
-                              <h5 class="card-title text-center">SEO</h5>
-                              <p class="card-text text-center">SEO is one of the best online marketing strategies to help your business improve its online presence.</p>
-                              
+                                <h5 class="card-title text-center">SEO</h5>
+                                <p class="card-text text-center">SEO is one of the best online marketing strategies to
+                                    help your business improve its online presence.</p>
+
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="item">
-                        <div class="card" >
+                        <div class="card">
                             <i class="fa-solid fa-laptop-code fa-3x text-center pt-3"></i>
                             <div class="card-body">
-                              <h5 class="card-title text-center">web Development</h5>
-                              <p class="card-text text-center">From simple to complex, our website design team will create, host, and update the site for you.</p>
-                              
+                                <h5 class="card-title text-center">web Development</h5>
+                                <p class="card-text text-center">From simple to complex, our website design team will
+                                    create, host, and update the site for you.</p>
+
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    
+
                 </div>
-                <div class="text-center"><p>Looking for a custom job? <a href="">Click Here</a> to contact me! </p></div>
+                <div class="text-center">
+                    <p>Looking for a custom job? <a href="#contact">Click Here</a> to contact me! </p>
+                </div>
             </section>
         </section>
         <section>
             <div class="container hireMe rounded py-5 text-center my-5">
                 <h1 class="text-center text-light">We are available to start working for you!</h1>
-                <button type="button" class="btn btn-outline-light mt-4 mx-2"><i
-                    class="fa-brands fa-whatsapp"></i> Hire Me</button>
+                <button type="button" class="btn btn-outline-light mt-4 mx-2"><i class="fa-brands fa-whatsapp"></i> Hire
+                    Me</button>
             </div>
+        </section>
+        <section>
+            <section class="container" id="contact">
+                <section class="container mb-5">
+                    <h1 class="text-center about">Get In Touch</h1>
+                </section>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-5" id="mapbg">
+                        <div>
+                            <h4>Quick Contact</h4>
+                            <p>Don't like forms? Send me an <a href="">email</a>.<i class="fa-solid fa-face-smile"></i>
+                            </p>
+                        </div>
+                        <div>
+                            <div class="row ">
+                                <div class="col-md-1 col-2"><i class="fa-solid fa-envelope-open fa-2x"></i></div>
+                                <div class="col-md-11 col-10 ">
+                                    <div class="ms-md-3">
+                                        <h4>Email</h4>
+                                    <p>iubat21103033@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1 col-2"><i class="fa-solid fa-message fa-2x"></i></div>
+                                <div class="col-md-11 col-10 ">
+                                    <div class="ms-md-3">
+                                        <h3>Social Media</h3>
+                                        <div class="d-flex ">
+                                            <p class="mx-2"><a href=""><i
+                                                        class="fa-brands fa-facebook-square fa-2x"></i></a></p>
+                                            <p class="mx-2"><a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                                            </p>
+                                            <p class="mx-2"><a href=""><i
+                                                        class="fa-brands fa-twitter-square fa-2x"></i></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1 col-2"><i class="fa-solid fa-map-location-dot fa-2x"></i></div>
+                                <div class="col-md-11 col-10">
+                                    <div class="ms-md-3">
+                                        <h4>Location</h4>
+                                        <p>Dhaka, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="validationServer01" class="form-label">Name<span
+                                        class="required">*</span></label>
+                                <input type="text" class="form-control shadow rounded border-0" id="validationServer01"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationServer02" class="form-label">Email<span
+                                        class="required">*</span></label>
+                                <input type="email" class="form-control shadow rounded border-0" id="validationServer02"
+                                    placeholder="Enter your mail" required>
+
+                            </div>
+                            <div class="col-md-12">
+                                <label for="validationServer01" class="form-label">Subject</label>
+                                <input type="text" class="form-control shadow rounded border-0" id="validationServer01"
+                                    placeholder="Enter subject" required>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="validationServer01" class="form-label">Message<span
+                                        class="required">*</span></label>
+                                <textarea class="w-100 shadow rounded p-2 border-0" name="" id="validationServer01"
+                                    cols="40" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit"><i
+                                        class="fa-solid fa-paper-plane text-light"></i> Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-center my-5">
+                    Design & Developed By <span>Md Khairul Islam</span> © 2022
+                </div>
+            </section>
         </section>
     </main>
 
@@ -221,7 +321,7 @@
     <!-- jquary -->
     <script src="./src/js/jquery-3.6.0.min.js"></script>
     <!-- owl carosel js -->
-    <script src="./src/js/owl.carousel.min.js"></script> 
+    <script src="./src/js/owl.carousel.min.js"></script>
 
     <script src="./src/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
@@ -231,22 +331,22 @@
 
     <script>
         $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    autoplay:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-})
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                668: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
     </script>
 
 </body>

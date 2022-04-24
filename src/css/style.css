@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* 
+text-primary : #7450a8 =======> purple
+bg-primary : #7450a8
+
+
+
+ */
+ .bg-primary{
+     background-color: #7450a8 !important;
+    
+ }
+ .text-primary{
+     color: #7450a8 !important;
+ }
+ .btn-outline-primary {
+    color: #7450a8 ;
+    border-color: #7450a8 ;
+}
+ .btn-outline-primary:hover {
+    background-color: #7450a8 !important;
+}
+ .btn-outline-primary:hover .text{
+    color: #fff !important;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
 }
-/* p{
-    text-align: justify;
-} */
+
 .nav-link.active{
     color: rgba(0,0,0,.55) !important;
     border-bottom: 2px solid rgba(0,0,0,.55);
@@ -14,10 +36,7 @@ body{
     color: #7450a8 !important;
     border-bottom: 2px solid #7450a8;
 }
-header .row{
-    height: 95vh;
-    width: 100%;
-}
+
 header ul{
     text-decoration: none;
 }
@@ -25,9 +44,7 @@ header ul li {
     list-style: none;
     margin: 0 10px;
 }
-.btn-outline-primary:hover{
-    background-color: #0d6efd !important;
-}
+
 .about::before{
     
     content: "";
@@ -61,8 +78,27 @@ header ul li {
     background-image: linear-gradient(#5A20CB, #8D3DAF);
 }
 
+#mapbg{
+    background-image: url(../images/map_bg.svg);
+    background-repeat: no-repeat;  
+}
+.required {
+    color: red;
+  }
 
 
+  @media screen and (min-width: 668px) and (max-width:991px) {
+    header .row{
+        height: 65vh;
+        width: 100%;
+    }
+  }
+  @media screen and (min-width: 991px)  {
+    header .row{
+        height: 95vh;
+        width: 100%;
+    }
+  }
 
 
 
