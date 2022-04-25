@@ -44,4 +44,4 @@ function are aboutme,skills,experience,education
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
         });</script>
-
+![fullpic](https://user-images.githubusercontent.com/81640708/165086654-3de66902-52c1-4583-9599-48281f531b9b.png)
