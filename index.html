@@ -70,6 +70,7 @@
         </div>
     </header>
     <main>
+        <!-- about me part -->
         <section class="my-skills" id="about">
             <section class="container mb-5">
                 <h1 class="text-center about">About Me</h1>
@@ -80,7 +81,7 @@
                         <img src="./src/images/formal.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="col-12 col-md-6 mt-3">
-                        <div >
+                        <div>
                             <button onclick="aboutme()" type="button"
                                 class="btn shadow text-white bg-primary mx-md-2">About
                                 Me</button>
@@ -110,25 +111,31 @@
                         <!-- skills part -->
                         <div class="d-none" id="skills">
                             <div class="row  m-0">
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
                                     <a class="text-light p-0 m-0"><i class="fa-brands fa-html5"></i> HTML</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded  py-2">
                                     <a class="text-light"><i class="fa-brands fa-css3-alt"></i> CSS</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
                                     <a class="text-light"><i class="fa-brands fa-js"></i> jS</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-git-alt"></i> Git/Github</a>
                                 </div>
-                                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
+                                <div
+                                    class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                                     <a class="text-light"><i class="fa-brands fa-sass"></i> Sass</a>
                                 </div>
-                               
+
                             </div>
                         </div>
                         <!-- Experince -->
@@ -159,6 +166,7 @@
 
             </section>
         </section>
+        <!-- services part -->
         <section id="services">
             <section class="container mb-5">
                 <h1 class="text-center about">What I Do</h1>
@@ -216,13 +224,295 @@
                 </div>
             </section>
         </section>
-        <section>
+        <!-- work part -->
+        <section class="my-5" id="work">
+            <section class="container ">
+                <h1 class="text-center about">Recent Works</h1>
+            </section>
+            <div class="container my-5">
+                <div class="row">
+                    <!-- isotope filter button -->
+                    <div class="col-md-12 col-12 col-lg-12">
+                        <div class="item-menu text-center">
+                            <button type="button" class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0"
+                                data-filter="*">All</button>
+                            <button type="button" class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0"
+                                data-filter=".webapp">Web-app</button>
+                            <button type="button" class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0"
+                                data-filter=".woocommerce">Woocommerce</button>
+                            <button type="button" class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0"
+                                data-filter=".portfolio">Portfolio</button>
+                            <button type="button" class="btn shadow text-white bg-primary mx-md-2 mt-md-3 mt-lg-0"
+                                data-filter=".react">ReactApp</button>
+                        </div>
+                    </div>
+                    <!-- card show -->
+                   <div class="mt-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-4  item-card text-center">
+                       
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/bapbank.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Bank Deposite & Withdrow</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://lighthearted-chaja-b8e4f2.netlify.app/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/pinmuster.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Pin Genarator</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/pincode/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/mousemove.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Mouse Move Parallax</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/mousemove/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/shopingcart.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Shoping Cart</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/shoping-card/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/resfoot.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Responsive Football</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/responsive-football/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/weather.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Weather App</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/temperature-hot-master/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/marketing.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Marketing Roles</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/FoodFasti/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp woocommerce react">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/reactbook.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Book list</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://wizardly-torvalds-d1cb83.netlify.app/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp woocommerce react">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/bookbd.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Book BD</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://optimistic-turing-93ec2c.netlify.app/home"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- webapp -->
+                        <div class="col element-item webapp woocommerce ">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/macbook.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Mac Book Pro</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/macbook-pro/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/foodfasti.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">foodFasti</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/FoodFasti/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/panda.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Panda Commerce</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/panda/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/fashon.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Penguins Fashion</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/penguin-fashion-main/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/bikes.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Honda CRB</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/honda-crb/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/logomarc.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">LogoMarc</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/marketing-website/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/store.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Store House</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/rangga-store/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/anim.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Shawed Store</h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/animhw/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/practice.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Looook </h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/practice/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                         <!-- woocommerce -->
+                         <div class="col element-item woocommerce">
+                            <div class="card shadow bg-light">
+                              <img src="./src/images/ss/landing.png" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title mb-5">Landing page </h5>
+                                <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/product-landing-starter-template/"><i class="fa-solid fa-link"></i> Preview</a>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- portfolio -->
+                        <div class="col element-item portfolio">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/misson22.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Portfolio style1</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/mission2022/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- portfolio -->
+                        <div class="col element-item portfolio">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/port1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Portfolio style2</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/portfolio-1/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- portfolio -->
+                        <div class="col element-item portfolio">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/laboni.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Portfolio style3</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/labony-portfolio/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                       <!-- portfolio -->
+                        <div class="col element-item portfolio">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/rahat.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Portfolio Style4</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/rahat-portfolio/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                       <!-- portfolio -->
+                        <div class="col element-item portfolio">
+                          <div class="card shadow bg-light">
+                            <img src="./src/images/ss/port2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title mb-5">Portfolio Style5</h5>
+                              <a class="text-decoration-none" target="_blank" href="https://khairulhub.github.io/b5img/"><i class="fa-solid fa-link"></i> Preview</a>
+                            </div>
+                          </div>
+                        </div>
+                       
+                    </div>
+                   </div>
+
+                </div>
+                <div class="text-center my-5">
+                    <button type="button" class="btn btn-outline-primary mx-2"><i class="fa-solid fa-arrow-right text"></i> See All</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- hire me part -->
+        <section class="mt-5">
             <div class="container hireMe rounded py-5 text-center my-5">
                 <h1 class="text-center text-light">We are available to start working for you!</h1>
                 <button type="button" class="btn btn-outline-light mt-4 mx-2"><i class="fa-brands fa-whatsapp"></i> Hire
                     Me</button>
             </div>
         </section>
+
+        <!-- contact part -->
         <section>
             <section class="container" id="contact">
                 <section class="container mb-5">
@@ -243,7 +533,7 @@
                                 <div class="col-md-11 col-10 ">
                                     <div class="ms-md-3">
                                         <h4>Email</h4>
-                                    <p>iubat21103033@gmail.com</p>
+                                        <p>iubat21103033@gmail.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -310,7 +600,7 @@
                     </div>
                 </div>
                 <div class="text-center my-5">
-                    Design & Developed By <span>Md Khairul Islam</span> © 2022
+                    Design & Developed By <span class="text-primary">Md Khairul Islam</span> © 2022
                 </div>
             </section>
         </section>
@@ -325,6 +615,7 @@
 
     <script src="./src/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/4b92de7e76.js" crossorigin="anonymous"></script>
+    <!-- isorope . pdgd.min.js -->
     <script src="./src/js/isotope.pkgd.min.js"></script>
     <script src="./src/js/main.js"></script>
 
@@ -348,6 +639,15 @@
             }
         })
     </script>
+    <script>
+        var $grid = $('.item-card').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.item-menu').on('click', 'button', function () {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });</script>
 
 </body>
 

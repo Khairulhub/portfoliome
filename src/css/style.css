@@ -19,6 +19,7 @@ bg-primary : #7450a8
 }
  .btn-outline-primary:hover {
     background-color: #7450a8 !important;
+    
 }
  .btn-outline-primary:hover .text{
     color: #fff !important;
