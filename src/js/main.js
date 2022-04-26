@@ -46,3 +46,7 @@ const education = () => {
     // skills.classList.remove('d-none')
     skills.classList.add('d-none')
 }
+
+
+
+
