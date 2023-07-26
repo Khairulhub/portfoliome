@@ -126,8 +126,20 @@
                 <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                   <a class="text-light"><i class="fa-brands fa-bootstrap"></i> Bootstrap</a>
                 </div>
+                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
+                  <a class="text-light"><i class="fa-brands fa-bootstrap"></i> Tailwind css</a>
+                </div>
                 <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
                   <a class="text-light"><i class="fa-brands fa-js"></i> jS</a>
+                </div>
+                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
+                  <a class="text-light"><i class="fa-brands fa-react"></i> React js</a>
+                </div>
+                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
+                  <a class="text-light"><i class="fa-brands fa-php"></i> PHP</a>
+                </div>
+                <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2 ">
+                  <a class="text-light"><i class="fa-brands fa-laravel"></i> Laravel</a>
                 </div>
                 <div class="col-md-4 mt-4 bg-primary d-flex align-items-center justify-content-center rounded py-2">
                   <a class="text-light"><i class="fa-brands fa-git-alt"></i> Git/Github</a>
@@ -138,9 +150,25 @@
 
               </div>
             </div>
-            <!-- Experince -->
+
+
+            <!-- --------------------------------Experince -->
             <div class="d-none mt-5" id="experience">
-              <h1 class="mt-5">-----</h1>
+              <div>
+                <div class="row mt-5">
+                  <div class="col-md-2 text-center text-primary"><i class="fa-solid fa-graduation-cap fa-2x"></i></div>
+                  <div class="col-md-10 border-start border-primary">
+                    <h1>Junior Full Stack Web Developer</h1>
+                    <h6 class="text-info">4axiz It Ltd.</h6>
+                    <button class="btn shadow text-white bg-primary mx-md-2 mt-2">January 2021 - Running</button>
+                    <p class="mt-5">Concentration: Structured Programming Language , Data
+                      Structures, Digital Logic Design , Numerical Methods, Data Communication ,
+                      Microprocessor, Assembly, C++, Java, Compiler Design , Software
+                      Engineering, Artificial Intelligence, Software Design & Development .</p>
+                  </div>
+
+                </div>
+              </div>
             </div>
             <!-- Education -->
             <div class="d-none" id="education">
@@ -624,6 +652,7 @@
                   placeholder="Enter your mail" required>
 
               </div>
+
               <div class="col-md-12">
                 <label for="" class="form-label">Subject</label>
                 <input type="text" class="form-control shadow rounded border-0" id="subject" placeholder="Enter subject"
@@ -633,6 +662,7 @@
                 <label for="" class="form-label">Message<span class="required">*</span></label>
                 <textarea class="w-100 shadow rounded p-2 border-0" name="" id="message" cols="40" rows="5"
                   placeholder="Enter your message"></textarea>
+                  <p class="contact-message" id="contact_message"></p>
               </div>
               <div class="col-12">
                 <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane text-light"></i>
@@ -694,7 +724,7 @@
       $grid.isotope({ filter: filterValue });
     });</script>
 
-  <script>
+  <!-- <script>
     const form = document.getElementById('form')
     function sendmail() {
       const subject = document.getElementById('subject')
@@ -714,29 +744,16 @@
 
 
     form.addEventListener('submit', sendmail)
-  </script>
+  </script> -->
 
-  <script>
-    const text = document.querySelector('.sec-text');
-    const textLoad = () =>{
-        setTimeout(()=>{
-            text.textContent = "Web Developer ...";
-        },0);
-        setTimeout(()=>{
-            text.textContent = "Freelearncer ...";
-        },4000);
-        setTimeout(()=>{
-            text.textContent = "Bloger ...";
-        },8000);
-        setTimeout(()=>{
-            text.textContent = "YouTuber ...";
-        },12000);
-
-    }
-    textLoad();
-</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
+<script src="./src/js/email.js"></script>
 </body>
 
 </html>
+
+
+<!-- service_rhm4m9o -->
+<!-- template_r8gfzup -->

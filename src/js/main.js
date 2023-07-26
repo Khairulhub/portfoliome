@@ -48,5 +48,25 @@ const education = () => {
 }
 
 
+// text animation
+const text = document.querySelector('.sec-text');
+    const textLoad = () =>{
+        setTimeout(()=>{
+            text.textContent = "Web Developer ...";
+        },0);
+        setTimeout(()=>{
+            text.textContent = "Freelearncer ...";
+        },4000);
+        setTimeout(()=>{
+            text.textContent = "Bloger ...";
+        },8000);
+        setTimeout(()=>{
+            text.textContent = "YouTuber ...";
+        },12000);
+
+    }
+    textLoad();
+
+
 
 
