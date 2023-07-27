@@ -6,6 +6,9 @@ bg-primary : #7450a8
 
 
  */
+ a{
+        text-decoration: none !important;
+ }
  .bg-primary{
      background-color: #7450a8 !important;
     
